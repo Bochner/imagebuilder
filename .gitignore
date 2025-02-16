@@ -1,0 +1,52 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# ISO files (large installation media)
+iso/*.iso
+
+# Build outputs and VM images
+output/
+completed/*.qcow2
+*.vmdk
+*.vdi
+*.ova
+*.box
+
+# Packer build artifacts
+packer_cache/
+*.pem
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Local environment files
+.env
+.env.*
+
+# Ansible retry files
+*.retry
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Cache directories
+.cache/
+__pycache__/
+
+# Crash logs
+crash.log
+
+# Downloaded files and temporary build artifacts
+*.download
+*.partial
+
+# Specific to this project
+output/*
+!output/.gitkeep
